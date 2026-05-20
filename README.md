@@ -9,6 +9,18 @@ This project analyzes supply chain operations to identify delivery delays, suppl
 - Evaluate inventory stockouts
 - Recommend optimization strategies
 
+## 📊 Dataset
+
+This project uses a synthetically generated dataset simulating a real-world supply chain system, including:
+
+- Suppliers
+- Orders
+- Shipments
+- Inventory
+- Disruptions
+
+The dataset is generated using a custom Python script to mimic real operational scenarios such as delays and supply chain disruptions.
+
 ## 🛠 Tools Used
 - SQL (data querying & transformation)
 - Python (EDA, simulation, modeling)
