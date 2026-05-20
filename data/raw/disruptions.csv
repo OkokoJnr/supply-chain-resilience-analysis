@@ -1,0 +1,101 @@
+disruption_id,date,type,severity,affected_region
+1,2023-11-05,Weather,High,America
+2,2023-01-21,Strike,Low,Africa
+3,2023-04-21,Fuel,Low,Asia
+4,2023-06-17,Weather,High,Asia
+5,2023-03-17,Port Delay,Medium,America
+6,2023-02-16,Weather,Low,Africa
+7,2023-12-31,Weather,High,Asia
+8,2023-05-08,Strike,Low,America
+9,2023-07-02,Strike,Low,Africa
+10,2023-07-22,Fuel,Medium,America
+11,2023-09-20,Port Delay,High,Europe
+12,2023-01-26,Strike,High,Asia
+13,2023-12-13,Weather,Medium,Europe
+14,2023-06-03,Fuel,Medium,Africa
+15,2023-05-14,Weather,High,Europe
+16,2023-03-31,Weather,High,Europe
+17,2023-01-16,Strike,Medium,Africa
+18,2023-07-27,Fuel,Low,America
+19,2023-08-20,Port Delay,Low,Europe
+20,2023-10-12,Port Delay,Medium,America
+21,2023-10-09,Strike,Low,Europe
+22,2023-05-08,Strike,Medium,America
+23,2023-02-18,Fuel,Low,Africa
+24,2023-08-25,Port Delay,Low,Europe
+25,2023-02-22,Port Delay,High,Africa
+26,2023-03-13,Port Delay,High,Europe
+27,2023-03-04,Weather,Low,Africa
+28,2023-01-07,Port Delay,Low,Africa
+29,2023-02-01,Weather,High,Europe
+30,2023-04-24,Fuel,High,Europe
+31,2023-03-08,Weather,High,Europe
+32,2023-04-12,Fuel,Medium,Asia
+33,2023-07-25,Port Delay,Low,America
+34,2023-07-10,Port Delay,High,Asia
+35,2023-12-18,Fuel,Low,Asia
+36,2023-11-19,Strike,Medium,Africa
+37,2023-11-27,Fuel,Medium,Europe
+38,2023-02-13,Strike,High,America
+39,2023-10-26,Weather,Medium,Africa
+40,2023-10-28,Weather,Low,Asia
+41,2023-05-13,Weather,High,Europe
+42,2023-02-08,Port Delay,Low,Africa
+43,2023-01-12,Weather,Low,Europe
+44,2023-02-03,Strike,Medium,Africa
+45,2023-04-12,Weather,Medium,Europe
+46,2023-11-27,Fuel,Medium,Asia
+47,2023-08-16,Fuel,Medium,America
+48,2023-03-07,Port Delay,Medium,Asia
+49,2023-02-17,Fuel,High,America
+50,2023-06-19,Strike,Low,Europe
+51,2023-03-04,Weather,Low,Africa
+52,2023-01-22,Port Delay,Low,Asia
+53,2023-08-25,Weather,Low,America
+54,2023-01-26,Weather,Medium,Asia
+55,2023-03-28,Strike,Low,America
+56,2023-10-21,Fuel,High,Asia
+57,2023-08-10,Fuel,High,America
+58,2023-07-22,Weather,Low,America
+59,2023-09-12,Port Delay,Low,Europe
+60,2023-01-16,Fuel,High,America
+61,2023-07-15,Port Delay,High,Europe
+62,2023-12-16,Fuel,Medium,America
+63,2023-08-07,Port Delay,High,Africa
+64,2023-03-30,Strike,Medium,Africa
+65,2023-07-01,Port Delay,Medium,Africa
+66,2023-04-20,Strike,Medium,America
+67,2023-04-06,Strike,Medium,Europe
+68,2023-05-21,Port Delay,Medium,Europe
+69,2023-05-24,Strike,Low,America
+70,2023-08-17,Weather,High,Africa
+71,2023-03-18,Strike,Medium,Africa
+72,2023-01-18,Fuel,High,Europe
+73,2023-11-11,Port Delay,High,Africa
+74,2023-11-14,Weather,Medium,Asia
+75,2023-11-12,Port Delay,Low,Europe
+76,2023-05-06,Fuel,Medium,Africa
+77,2023-11-28,Fuel,Low,Europe
+78,2023-06-01,Fuel,High,Asia
+79,2023-09-13,Strike,Low,Europe
+80,2023-07-30,Strike,Low,Europe
+81,2023-10-09,Port Delay,Low,Europe
+82,2023-09-03,Port Delay,High,Europe
+83,2023-02-01,Weather,High,Asia
+84,2023-02-14,Weather,Low,America
+85,2023-05-24,Port Delay,Low,Europe
+86,2023-07-16,Strike,Medium,Europe
+87,2023-03-12,Fuel,Low,Africa
+88,2023-08-03,Port Delay,Medium,Europe
+89,2023-04-13,Weather,Low,Africa
+90,2023-11-26,Strike,Medium,America
+91,2023-09-27,Port Delay,High,Asia
+92,2023-05-08,Port Delay,Low,Asia
+93,2023-11-19,Strike,Low,America
+94,2023-10-06,Port Delay,Low,Asia
+95,2023-01-10,Strike,Low,America
+96,2023-07-15,Fuel,Medium,America
+97,2024-01-01,Strike,Low,America
+98,2023-07-03,Strike,High,Asia
+99,2023-09-03,Strike,High,Africa
+100,2023-10-06,Port Delay,Low,America
