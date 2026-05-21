@@ -21,6 +21,20 @@ This project uses a synthetically generated dataset simulating a real-world supp
 
 The dataset is generated using a custom Python script to mimic real operational scenarios such as delays and supply chain disruptions.
 
+## ⚙️ Data Pipeline
+
+This project includes a fully reproducible data pipeline:
+
+1. Synthetic data generation using Python
+2. Relational schema design in PostgreSQL
+3. Data loading using SQL scripts (`\copy`)
+4. Structured analysis using SQL queries
+
+To reproduce:
+```bash
+psql -U postgres -d supply_chain_db -f sql/schema.sql
+psql -U postgres -d supply_chain_db -f sql/load_data.sql
+
 ## 🛠 Tools Used
 - SQL (data querying & transformation)
 - Python (EDA, simulation, modeling)
