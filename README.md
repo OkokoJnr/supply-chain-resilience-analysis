@@ -50,7 +50,7 @@ psql -U postgres -d supply_chain_db -f sql/load_data.sql
 ## 📊 Key Insights 
 
 =================================================================
-## 📊 Supplier Risk Analysis
+1. ## 📊 Supplier Risk Analysis
 
 ### Objective
     Identify high-risk suppliers using delivery performance and reliability metrics.
@@ -73,6 +73,23 @@ psql -U postgres -d supply_chain_db -f sql/load_data.sql
     - Renegotiate service level agreements (SLAs)
     - Diversify supplier base to reduce dependency
     - Implement continuous supplier performance monitoring
+
+=================================================================
+
+2. ## 💰 Cost of Delivery Delays
+
+- Supplier_3 and Supplier_14 contribute the highest delay-related costs
+- Delay cost is driven primarily by accumulated delay days, not shipping cost
+- A small number of suppliers account for a disproportionate share of total delay cost
+
+### Business Impact
+- Delay-related costs represent a significant operational inefficiency
+- Targeting top suppliers could yield substantial cost savings
+
+### Recommendations
+- Prioritize high-cost suppliers for intervention
+- Introduce contractual penalties for delays
+- Reallocate order volume to better-performing suppliers
 
 =================================================================
 
