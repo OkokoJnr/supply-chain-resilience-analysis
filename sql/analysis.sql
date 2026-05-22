@@ -65,3 +65,37 @@ JOIN suppliers s
 
 GROUP BY s.supplier_name
 ORDER BY estimated_delay_cost DESC;
+
+
+-- 3. INVENTORY RISK (STOCKOUT DETECTION)
+-- Objective:
+-- Identify products at risk of stockout
+--
+-- Insight:
+-- Products below reorder point can disrupt operations
+-- and lead to lost sales or delays
+SELECT 
+    p.product_id,
+    p.product_name,
+    p.category,
+    
+    i.stock_level,
+    i.reorder_point,
+    
+    CASE 
+        WHEN i.stock_level <= i.reorder_point THEN 'Reorder Needed'
+        ELSE 'Stock OK'
+    END AS stock_status
+
+FROM inventory i
+JOIN products p 
+    ON i.product_id = p.product_id
+
+-- Get ONLY latest record per product
+WHERE i.date = (
+    SELECT MAX(i2.date)
+    FROM inventory i2
+    WHERE i2.product_id = i.product_id
+)
+
+ORDER BY i.stock_level ASC;

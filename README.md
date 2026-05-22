@@ -93,6 +93,27 @@ psql -U postgres -d supply_chain_db -f sql/load_data.sql
 
 =================================================================
 
+3. ## 📦 Inventory Risk Analysis
+
+Approximately 22% of products are below their reorder point, indicating a moderate stockout risk.
+
+### Findings:
+- Multiple products are operating close to or below safety stock levels
+- Some products are significantly overstocked, creating inefficiencies
+- Inventory imbalance exists across categories
+
+### Business Impact:
+- Stockouts may lead to lost sales and customer dissatisfaction
+- Overstock ties up capital and increases storage cost
+
+### Recommendation:
+- Implement dynamic reorder thresholds
+- Introduce early warning stock alerts
+- Optimize inventory distribution across categories
+
+
+=================================================================
+
 ## 🚀 How to Run
 1. Generate dataset using Python
 2. Load into SQL database
