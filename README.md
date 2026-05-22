@@ -34,6 +34,7 @@ To reproduce:
 ```bash
 psql -U postgres -d supply_chain_db -f sql/schema.sql
 psql -U postgres -d supply_chain_db -f sql/load_data.sql
+```
 
 ## 🛠 Tools Used
 - SQL (data querying & transformation)
@@ -46,10 +47,34 @@ psql -U postgres -d supply_chain_db -f sql/load_data.sql
 - python/ → analysis & modeling
 - dashboard/ → Power BI file
 
-## 📊 Key Insights (To be updated)
-- ...
-- ...
-- ...
+## 📊 Key Insights 
+
+=================================================================
+## 📊 Supplier Risk Analysis
+
+### Objective
+    Identify high-risk suppliers using delivery performance and reliability metrics.
+
+### Methodology
+    - Combined average delivery delay and supplier reliability
+    - Applied weighted scoring (60% delay, 40% reliability)
+
+### Key Findings
+    - Supplier_2, Supplier_11, and Supplier_3 exhibit the highest risk scores
+    - High delays combined with low reliability significantly increase supplier risk
+    - Some suppliers maintain low risk despite high delays due to strong reliability
+
+### Business Impact
+    - High-risk suppliers can disrupt operations and increase costs
+    - Over-reliance on these suppliers introduces supply chain vulnerability
+
+### ✅ Recommendations (THIS IS THE IMPROVEMENT PART)
+    - Prioritize high-risk suppliers for performance review
+    - Renegotiate service level agreements (SLAs)
+    - Diversify supplier base to reduce dependency
+    - Implement continuous supplier performance monitoring
+
+=================================================================
 
 ## 🚀 How to Run
 1. Generate dataset using Python
