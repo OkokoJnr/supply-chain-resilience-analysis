@@ -68,7 +68,7 @@ psql -U postgres -d supply_chain_db -f sql/load_data.sql
     - High-risk suppliers can disrupt operations and increase costs
     - Over-reliance on these suppliers introduces supply chain vulnerability
 
-### ✅ Recommendations (THIS IS THE IMPROVEMENT PART)
+### ✅ Recommendations 
     - Prioritize high-risk suppliers for performance review
     - Renegotiate service level agreements (SLAs)
     - Diversify supplier base to reduce dependency
