@@ -99,3 +99,26 @@ WHERE i.date = (
 )
 
 ORDER BY i.stock_level ASC;
+
+
+
+
+
+
+-- 4. DISRUPTION IMPACT ANALYSIS
+-- Objective:
+-- Analyze frequency and severity of disruptions
+--
+-- Insight:
+-- Certain disruption types occur more frequently and at higher severity, indicating systemic risk areas
+
+SELECT 
+    d.type,
+    d.severity,
+    COUNT(*) AS total_events
+
+FROM disruptions d
+
+GROUP BY d.type, d.severity
+ORDER BY total_events DESC;
+

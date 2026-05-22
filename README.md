@@ -113,6 +113,26 @@ Approximately 22% of products are below their reorder point, indicating a modera
 
 
 =================================================================
+## 🌍 Disruption Impact Analysis
+
+### Key Insight:
+Port delays are the most frequent disruption type, while weather-related events contribute the highest severity impact.
+
+### Findings:
+- Port delays account for the highest number of disruption events
+- Weather disruptions are more severe on average
+- Fuel disruptions are consistent across severity levels
+
+### Business Impact:
+- External disruptions significantly affect supply chain reliability
+- Multiple risk sources create unpredictability in operations
+
+### Recommendation:
+- Diversify logistics routes and suppliers
+- Implement buffer stock strategies for high-risk disruption periods
+- Develop contingency plans for weather and port-related disruptions
+
+=================================================================
 
 ## 🚀 How to Run
 1. Generate dataset using Python
